@@ -1,0 +1,341 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+/* MENU HEADER */
+.navbar{
+    background: #091834;
+
+}
+
+nav a{
+    color: white;
+}
+
+
+/* FIN MENU HEADER */
+
+
+/* MENU LATERAL */
+.menu{
+    margin-top: 30px;
+}
+
+ul.nav-lateral{
+    height: 250px;
+    width: 251px;
+    margin-top: 10px;
+    top: 0;
+    left: 0;
+    background-color: #0C1931;
+    overflow: auto;
+    font-size: 13px;
+    list-style-type: none;
+}
+
+ul.nav-lateral::-webkit-scrollbar{
+    width: 7px;
+}
+
+ul.nav-lateral::-webkit-scrollbar-thumb{
+    background: #494D4C;
+    border-radius: 5px;
+}
+
+img.activo{
+    margin: 20px 62px;
+}
+
+img.b{
+    width: 18px;
+    height: 15px;
+    margin: 0px 18px 0px 10px;
+    vertical-align: center;
+}
+
+span#c{
+    margin-left: 53px;
+}
+
+span#d{
+    margin-left: 89px;
+}
+
+span#e{
+    margin-left: 56px;
+}
+
+
+
+header ul{
+    display: block;
+
+}
+
+ul.nav-lateral li a {
+    display: block;
+    color: #E0E9FA;
+    padding: 7px 15px;
+    text-decoration: none;
+}
+
+
+ul.nav-lateral a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+ul.nav-lateral ul{
+    display: none;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+ul.nav-lateral a span{
+    margin-left: 10px;
+}
+
+ul.nav-lateral li:hover ul{
+    display: block;
+    position: absolute;
+}
+
+ul.nav-lateral li:hover ul{
+    display: none;
+    position: relative;
+}
+
+ul.nav-lateral ul {
+    background: #102A5B;
+}
+
+
+/* FIN NAV LATERAL */
+
+/* TEXTO DE CLASS="col-sm-9" */
+
+.col-sm-9 .well p a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#perfil{
+    background-color: #0C1931;
+    text-decoration: none;
+}
+
+#perfil p a{
+    color: #E0E9FA;
+}
+
+#perfil p a:hover{
+    color: #FB8604;
+}
+
+#perfil a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+#navegacion{
+    background: #0C1931;
+}
+
+.row .col-sm-12 .well{
+    display: flex;
+    margin-top: 0px;
+}
+
+.row .col-sm-12 .well p a{
+    font-size: 20px;
+    color: #091834;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.row .col-sm-12 .well p a:hover {
+    color: #FB8604;
+}
+
+/* AGENDA*/
+
+
+.agenda{
+    background-color: #0A337F;
+    height: 50px;
+    padding: 10px 15px;
+    margin: 0px 2px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+.agenda a{
+    color: white;
+}
+
+.agenda-item {
+    display: flex;
+    list-style-type: none;
+}
+
+.fecha-agenda{
+    height: 60px;
+    width: 60px;
+    background: #0A337F;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.titulo-agenda{
+    padding: 15px 5px;
+
+}
+
+p.titulo-agenda a{
+    text-decoration: none;
+    color: #390C30;
+}
+
+p.titulo-agenda a:hover {
+    color: #FB8604;
+}
+
+
+/* FIN AGENDA */
+
+
+/* Biblioteca Virtual*/
+ul.biblioteca {
+    list-style-type: none;
+}
+
+
+/* fin Biblioteca Virtual*/
+
+.logo-fisi{
+    height: 80px;
+    width: 350px;
+    margin-left: 215px;
+}
+
+.banner{
+    display: inline-block;
+    margin-top: 50px;
+    width: 100%;
+    height: 90px;
+    background-color: #819ED5;
+}
+
+li.redes-sociales{
+    float: right;
+    list-style-type: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 230px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+li.redes-sociales ul{
+    display: flex;
+}
+
+.panel-heading{
+    height: 55px;
+
+}
+.panel-heading ul li{
+    list-style-type: none;
+}
+
+.panel-body{
+    height: 100px;
+}
+
+.panel-footer ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 10px;
+}
+
+.modal-header, .modal-body, .modal-footer{
+    background-color: #E2ED32;
+}
+
+.col-sm-3 ul.ciclo li {
+    list-style-type: none;
+    text-align: center;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.sitio{
+    display: block;
+}
+
+.mensaje{
+    margin-top: 40px;
+    display: inline-flex;
+
+}
+
+.videos{
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #0C1931;
+    color: white;
+    padding: 15px;
+}
+
+
+
+
+
+/* modificado */
+
+.tamaño-menu{
+    margin-bottom: 0px !important;
+}
+
+.tamaño{
+    height: 100%;
+}
+
+.tamaño_panel{
+    margin: 0px !important;
+    padding: 5px !important;
+}
+
+.lugar{
+    margin-top: 0.2em;
+    float: left;
+}
+
+.input{
+
+    margin: 5px;
+}
+
+.color-icono{
+    background: #d9edf7 !important;
+    color: #31708f !important;
+    border:  #bce8f1 !important;
+}
+
+.control-label{
+   float: right !important; 
+}
