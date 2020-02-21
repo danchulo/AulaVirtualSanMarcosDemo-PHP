@@ -5,7 +5,7 @@
 	$bd_config = array(
 		'basedatos' => 'inthc',
 		'usuario' => 'root',
-		'pass' => 'root' 
+		'pass' => '' 
 	);
 
 	$aulav = array(
